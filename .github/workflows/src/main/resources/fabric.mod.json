@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nebula",
+  "version": "${version}",
+  "name": "Nebula Client",
+  "description": "Клиентский мод: ClickGUI, AutoMine, SwingAnimations, NameTags, Ambience.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.nebula.NebulaClient"]
+  },
+  "mixins": ["nebula.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
